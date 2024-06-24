@@ -1,0 +1,57 @@
+
+.moviecard{
+    height: 450px;
+    width: 270px;
+    border: 2px solid rgb(153, 146, 146);
+    border-radius: 10px;
+    margin: 20px;
+    text-decoration: none;
+    
+
+}
+.moviecard:hover{
+    box-shadow: 0 6px 28px black;
+    position: relative;
+    transform: translateY(-6px);
+    transition: 0.3s;
+     
+}
+.rating{
+    
+    text-align: center;
+    padding: 20px;
+    
+    color: red;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.color{
+    color: black;
+    margin-left: 5px;
+}
+.btn{
+   
+    display: flex;
+    margin: 0px auto;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+   
+}
+.btn:hover{
+     transition: 1s; 
+    background-color: red;
+    color: white;
+    position: relative;
+    transform: translateY(-6px);
+    transition: 0.3s;
+
+}
+
+.title{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,35 @@
+.cardview{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.img{
+    height: 400px;
+    width: 500px;
+}
+
+.content{
+    padding: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.price{
+    margin: 30px;
+    text-align: center;
+}
+
+.btn{
+   
+    display: flex;
+    margin: 0px auto;
+    border-radius: 5px;
+    padding: 8px;
+    width: 150px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+   
+}
